@@ -75,6 +75,9 @@
   margin-left: 15px;
   padding-left: 10px;
 }
+.top-navigation a:hover {
+  color: var(--greens);
+}
 /* slider section */
 .slider-section {
   height: 380px;
@@ -122,8 +125,11 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
+  transition: 1sc;
 }
-
+.work-item-img:hover {
+  background-size: 120%;
+  }
 .work-item-text {
   text-align: center;
   margin-left: 15px;
